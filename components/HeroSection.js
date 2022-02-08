@@ -27,7 +27,7 @@ const HeroSection = () => {
 				<HeroCol>
 					{/* <HeroImage> */}
 					<Image
-						src='/images/Sample 10.svg'
+						src='/images/heroImg.png'
 						alt='3d art'
 						layout='fill'
 						objectFit='cover'
