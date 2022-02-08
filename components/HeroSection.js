@@ -10,8 +10,9 @@ const HeroSection = () => {
 			<HeroRow>
 				<HeroCol>
 					<HeroArticle>
+						<Subtitle>Cool Tech Design</Subtitle>
 						<HeroTitle>
-							Welcome to <span>Cool Tech Design</span>
+							Website <span>Design & Development</span> Agency
 						</HeroTitle>
 						<HeroDesc>
 							We provide modern and professional lead generation websites for
@@ -87,6 +88,15 @@ const HeroArticle = styled.article`
 		width: 100%;
 		max-width: 100%;
 	}
+`;
+
+const Subtitle = styled.p`
+	font-size: 12px;
+	background-color: var(--primary-color);
+	color: #fff;
+	padding: 0.4rem 1rem;
+	align-self: flex-start;
+	border-radius: 50px;
 `;
 
 const HeroTitle = styled.h1`
