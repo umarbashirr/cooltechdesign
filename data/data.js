@@ -44,7 +44,7 @@ export const services = [
 		id: 2,
 		icon: <FaCode />,
 		title: 'Website Development',
-		desc: 'We work closely with our customers to create outstanding, high performing, and secure custom websites using differnt latest technologies.',
+		desc: 'We work closely with our customers to create outstanding, high performing, and secure custom websites using different latest technologies.',
 	},
 	{
 		id: 3,

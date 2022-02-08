@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
 				<meta httpEquiv='Content-Type' content='text/html;charset=UTF-8' />
 				<meta
 					name='description'
-					content='Cool Tech Design is one of the best web development agency in india. We provide modern, professional and lead generation website design and development. '
+					content='Cool Tech Design is an India-based website design and development agency that provides modern and professional lead generation websites for your business. '
 				/>
 				<meta
 					name='keywords'
