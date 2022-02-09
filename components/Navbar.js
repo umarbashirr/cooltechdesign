@@ -12,10 +12,10 @@ const Navbar = () => {
 				<Link href='/' passHref>
 					<LogoImage>
 						<Image
-							src='/images/logo.svg'
+							src='/images/logo-new.jpg'
 							alt='Cool Tech Design'
-							width={190}
-							height={60}
+							width={140}
+							height={70}
 						/>
 					</LogoImage>
 				</Link>
