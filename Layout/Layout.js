@@ -24,22 +24,9 @@ const Layout = ({ children }) => {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<meta name='theme-color' content='#000000' />
 				<meta
-					name='keywords'
-					content='Modern website design, Cool Tech Design, cooltechdesign, website developer near me, website designer near me, professional website, professional website template, web developer near me, ecommerce development, ecommerce website development, ecommerce developer, best website builder for small business, small business website, create a business website, professional website designer, website developers, website developer, website development company'
-				/>
-				<meta
-					name='description'
-					content='Cool Tech Design is an India-based website development company that provides professional website template, website development, ecommerce website development for your business.'
-				/>
-				<meta
 					name='title'
 					content='Cool Tech Design | Modern and Professional Website Development'
 				/>
-				<meta
-					name='description'
-					content='Cool Tech Design is an India-based website development company that provides professional website template, website development, ecommerce website development for your business.'
-				/>
-
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://cooltechdesign.com/' />
 				<meta
@@ -48,7 +35,7 @@ const Layout = ({ children }) => {
 				/>
 				<meta
 					property='og:description'
-					content='Cool Tech Design is an India-based website development company that provides professional website template, website development, ecommerce website development for your business.'
+					content='Cool Tech Design is an India-based website design and development agency that provides modern and professional lead generation websites for your business.'
 				/>
 				<meta
 					property='og:image'
@@ -64,7 +51,7 @@ const Layout = ({ children }) => {
 				/>
 				<meta
 					name='twitter:description'
-					content='Cool Tech Design is an India-based website development company that provides professional website template, website development, ecommerce website development for your business.'
+					content='Cool Tech Design is an India-based website design and development agency that provides modern and professional lead generation websites for your business.'
 				/>
 				<meta
 					name='twitter:image'
@@ -76,6 +63,7 @@ const Layout = ({ children }) => {
 					href='https://fonts.gstatic.com'
 					crossOrigin='true'
 				/>
+				<script src='https://smtpjs.com/v3/smtp.js' defer></script>
 			</Head>
 
 			<Navbar />
