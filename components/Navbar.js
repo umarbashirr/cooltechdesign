@@ -12,10 +12,10 @@ const Navbar = () => {
 				<Link href='/' passHref>
 					<LogoImage>
 						<Image
-							src='/images/Asset 1.png'
+							src='/images/logo.svg'
 							alt='Cool Tech Design'
-							layout='fill'
-							objectFit='cover'
+							width={190}
+							height={60}
 						/>
 					</LogoImage>
 				</Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
 export default Navbar;
 
 const Nav = styled.nav`
-	height: 80px;
+	height: 100px;
 	position: sticky;
 	top: 0;
 	background-color: #fff;
@@ -48,12 +48,6 @@ const Nav = styled.nav`
 
 const LogoImage = styled.div`
 	position: relative;
-	width: 100%;
-	height: 50px;
-	max-width: 200px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 `;
 
 const StyledLink = styled.a`

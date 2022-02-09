@@ -33,4 +33,12 @@ export const Container = styled.div`
 	}
 `;
 
+export const Section = styled.section`
+	margin: 50px 0;
+
+	@media screen and (min-width: 1024px) {
+		margin: 100px 0;
+	}
+`;
+
 export default GlobalStyle;

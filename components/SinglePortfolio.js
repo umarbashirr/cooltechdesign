@@ -23,8 +23,9 @@ export default SinglePortfolio;
 
 const ImageWrapper = styled.article`
 	position: relative;
-	height: 400px;
-	width: 400px;
+	width: 100%;
+	min-height: 350px;
+	min-width: 350px;
 	border-radius: 20px;
 	overflow: hidden;
 	transition: all 0.4s ease-in-out;
@@ -48,6 +49,11 @@ const ImageWrapper = styled.article`
 
 	&:hover div {
 		display: block;
+	}
+
+	@media screen and (max-width: 768px) {
+		min-height: 250px;
+		min-width: 250px;
 	}
 `;
 

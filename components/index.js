@@ -7,6 +7,7 @@ import SectionTitle from './SectionTitle';
 SectionTitle;
 import PageHero from './PageHero';
 import CtaBanner from './CtaBanner';
+import AboutSection from './AboutSection';
 
 export {
 	Navbar,
@@ -17,4 +18,5 @@ export {
 	SectionTitle,
 	PageHero,
 	CtaBanner,
+	AboutSection,
 };

@@ -39,5 +39,5 @@ const ServiceRow = styled.div`
 `;
 
 const ServiceCol = styled.div`
-	flex: 1 1 30%;
+	flex: 1 1 350px;
 `;

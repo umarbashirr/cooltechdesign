@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Button from './Button';
@@ -29,17 +30,22 @@ function ContactForm() {
 		setEnteredMessage(event.target.value);
 	};
 
-	const sendEmail = (e) => {
+	const sendEmail = async (e) => {
 		e.preventDefault();
-		Email.send({
-			Host: 'smtp.gmail.com',
-			Username: 'umarbashir601@gmail.com',
-			Password: 'uBashir@1993',
-			To: 'umarbashir601@gmail.com',
-			From: enteredEmail,
-			Subject: 'New Query Submitted at Cool Tech Design',
-			Body: `<strong>Hi Admin,<br/><br/>Greeting of the Day!</strong><br/><br/> You have received new query on your website. Please find below details: <br/><br/> <strong>Name:</strong> ${enteredName} <br/> <strong>Email:</strong> ${enteredEmail} <br/> <strong>Phone:</strong> ${enteredPhone} <br/><strong>Subject:</strong> ${enteredSubject} <br/><strong>Message:</strong> ${enteredMessage}`,
-		}).then((message) => alert('mail sent successfully'));
+		const mailBody = {
+			name: enteredName,
+			email: enteredEmail,
+			phone: enteredPhone,
+			subject: enteredSubject,
+			message: enteredMessage,
+		};
+		console.log(mailBody);
+		try {
+			const request = await axios.post('/api/contact', mailBody);
+			const data = await request.json();
+		} catch (error) {
+			console.error(error.message);
+		}
 		setEnteredName('');
 		setEnteredEmail('');
 		setEnteredPhone('');

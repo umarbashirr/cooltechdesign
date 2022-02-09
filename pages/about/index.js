@@ -1,31 +1,14 @@
-import Image from 'next/image';
 import styled from 'styled-components';
-import { CtaBanner, PageHero } from '../../components';
-import { aboutData } from '../../data/data';
-import { Container } from '../../styles/globalstyles';
+import { CtaBanner, PageHero, AboutSection } from '../../components';
+import { Container, Section } from '../../styles/globalstyles';
 
-const About = ({ data }) => {
-	const { title, description, img, subtitle } = data;
-
-	console.log(data, title);
+const About = () => {
 	return (
 		<>
 			<PageHero title='About us' />
 			<Section>
 				<Container>
-					<Row>
-						<Col>
-							<TextWrapper>
-								<Title>{subtitle}</Title>
-								<Description>{description}</Description>
-							</TextWrapper>
-						</Col>
-						<Col>
-							<ImageContainer>
-								<Image src={img} alt={title} layout='fill' objectFit='cover' />
-							</ImageContainer>
-						</Col>
-					</Row>
+					<AboutSection />
 				</Container>
 			</Section>
 			<Section>
@@ -38,14 +21,6 @@ const About = ({ data }) => {
 };
 
 export default About;
-
-const Section = styled.section`
-	margin: 50px 0;
-
-	@media screen and (min-width: 1024px) {
-		margin: 100px 0;
-	}
-`;
 
 const Row = styled.div`
 	display: grid;
@@ -93,11 +68,3 @@ const ImageContainer = styled.div`
 		height: 300px;
 	}
 `;
-
-export const getStaticProps = async () => {
-	return {
-		props: {
-			data: aboutData,
-		},
-	};
-};

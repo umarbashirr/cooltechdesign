@@ -10,6 +10,7 @@ const Title = styled.h2`
 	text-align: center;
 	font-size: 35px;
 	font-weight: 700;
+	margin-bottom: 50px;
 
 	span {
 		color: var(--primary-color);

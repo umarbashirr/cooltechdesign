@@ -86,9 +86,9 @@ export const heroObj = {
 export const aboutData = {
 	subtitle: 'we are creative agency',
 	title: 'about our agency',
-	description: `Cool Tech Design is one of the best web development agency from
+	description: `Cool Tech Design is one of the best website design and development agency from
   Jammu and Kashmir India that has severed a variety of businesses
-  with professional web design and development solutions. We have
+  with professional website design and development solutions. We have
   an excellent team of web developers who are capable of building
   creative, stunning and high-performance websites of any
   complexity.

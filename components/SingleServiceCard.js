@@ -15,7 +15,7 @@ export default SingleServiceCard;
 const Article = styled.article`
 	border-radius: 10px;
 	padding: 3rem 2rem;
-	min-height: 300px;
+	min-height: 320px;
 	display: flex;
 
 	flex-direction: column;
