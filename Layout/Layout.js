@@ -22,7 +22,10 @@ const Layout = ({ children }) => {
 					name='description'
 					content='Cool Tech Design is an India-based website design and development agency that provides modern and professional lead generation websites for your business.'
 				/>
-				<meta name='image' content='https://i.ibb.co/n3qfqTv/logo.jpg' />
+				<meta
+					name='image'
+					content='https://i.ibb.co/ZKbzYNw/pexels-designecologist-1779487.jpg'
+				/>
 				{/*  Schema.org for Google  */}
 				<meta
 					itemProp='name'
@@ -32,7 +35,10 @@ const Layout = ({ children }) => {
 					itemProp='description'
 					content='Cool Tech Design is an India-based website design and development agency that provides modern and professional lead generation websites for your business.'
 				/>
-				<meta itemProp='image' content='https://i.ibb.co/n3qfqTv/logo.jpg' />
+				<meta
+					itemProp='image'
+					content='https://i.ibb.co/ZKbzYNw/pexels-designecologist-1779487.jpg'
+				/>
 				{/*  Twitter */}
 				<meta name='twitter:card' content='summary' />
 				<meta
@@ -55,7 +61,10 @@ const Layout = ({ children }) => {
 					name='og:description'
 					content='Cool Tech Design is an India-based website design and development agency that provides modern and professional lead generation websites for your business.'
 				/>
-				<meta name='og:image' content='https://i.ibb.co/n3qfqTv/logo.jpg' />
+				<meta
+					name='og:image'
+					content='https://i.ibb.co/ZKbzYNw/pexels-designecologist-1779487.jpg'
+				/>
 				<meta name='og:url' content='https://cooltechdesign.com' />
 				<meta name='og:site_name' content='Cool Tech Design' />
 				<meta
